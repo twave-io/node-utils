@@ -1,0 +1,18 @@
+{
+  "name": "node-utils",
+  "version": "1.0.0",
+  "description": "Utilities for node scripts at twave-io",
+  "license": "MIT",
+  "main": "./index.js",
+  "scripts": {
+    "setup": "npm install --no-save",
+    "update-deps": "npm install",
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
